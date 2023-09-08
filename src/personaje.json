@@ -1,0 +1,610 @@
+{
+    "Armor": {
+        "helmet": [
+            {
+                "id": "Helmet1",
+                "url": "https://i.pinimg.com/originals/d5/eb/c6/d5ebc6ff7e10e6f929c04504cce0b874.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Helmet2",
+                "url": "https://i.pinimg.com/originals/16/96/41/169641a9f8aeef926697850124cdf415.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Helmet3",
+                "url": "https://i.pinimg.com/originals/9c/87/bf/9c87bf25a434c5aa51265b1c3ad3cb37.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Helmet4",
+                "url": "https://i.pinimg.com/originals/9e/a1/bb/9ea1bb53af281e5c44436a7a4d59d016.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Helmet5",
+                "url": "https://i.pinimg.com/originals/0f/89/07/0f8907ce0dddfcab54503f20eabc31c6.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Helmet6",
+                "url": "https://i.pinimg.com/originals/7a/6d/aa/7a6daa2ad495ea8cd09267686914c6b8.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Helmet7",
+                "url": "https://i.pinimg.com/originals/8b/3d/62/8b3d6227d7b58fb285b35bb95f8a9de4.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Helmet8",
+                "url": "https://i.pinimg.com/originals/47/e4/81/47e4810119428fdf9a9bb2fefbe1bc18.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Helmet9",
+                "url": "https://i.pinimg.com/originals/e0/e3/75/e0e3753a98386501d83c2eb16cf96a6b.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Helmet10",
+                "url": "https://i.pinimg.com/originals/61/96/79/6196792dd59e1e6abc5747c5449fc559.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Helmet11",
+                "url": "https://i.pinimg.com/originals/ce/17/2e/ce172e45b60c3129e3c3c5b3f26bd6dc.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Helmet12",
+                "url": "https://i.pinimg.com/originals/d5/eb/c6/d5ebc6ff7e10e6f929c04504cce0b874.jpg",
+                "DEF": 2
+            }
+        ],
+        "gauntlets": [
+            {
+                "id": "Gaunlet1",
+                "url": "https://i.pinimg.com/originals/42/4f/46/424f468b885ef03d6f8f1121a912b9c9.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Gaunlet2",
+                "url": "https://i.pinimg.com/originals/be/43/b7/be43b7f4d9315918c536ca61dcb5c68c.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Gaunlet3",
+                "url": "https://i.pinimg.com/originals/a0/5b/53/a05b53378dcea91d2f3f513e164ba5da.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Gaunlet4",
+                "url": "https://i.pinimg.com/originals/d5/fa/6e/d5fa6ee3331697eafed4544716fc56c6.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Gaunlet5",
+                "url": "https://i.pinimg.com/originals/f5/59/9b/f5599b767a5f3cccc7e993046e8501f3.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Gaunlet6",
+                "url": "https://i.pinimg.com/originals/40/2c/4b/402c4bd729e712f529d449738b2c327f.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Gaunlet7",
+                "url": "https://i.pinimg.com/originals/d0/f9/9f/d0f99fe333122df8012c460042aa94dd.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Gaunlet8",
+                "url": "https://i.pinimg.com/originals/28/95/24/289524bf5f693d2d6363abcd695132a5.jpg",
+                "DEF": 3
+            }
+        ],
+        "boots": [
+            {
+                "id": "Boots1",
+                "url": "https://i.pinimg.com/originals/89/d7/87/89d787e64094709bdde8d89391eff614.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Boots2",
+                "url": "https://i.pinimg.com/originals/e8/46/d3/e846d38be2454fcf4aa9329f05222971.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Boots3",
+                "url": "https://i.pinimg.com/originals/c9/2d/a3/c92da3d2a458ab3713e806c339a308c5.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Boots4",
+                "url": "https://i.pinimg.com/originals/d7/db/3a/d7db3a778977c620b30854a645cd414c.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Boots5",
+                "url": "https://i.pinimg.com/originals/f2/32/23/f23223661463e51bd85f466227ab349d.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Boots6",
+                "url": "https://i.pinimg.com/originals/f7/05/3a/f7053a063a6f24ad4f3eb1c77349b105.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Boots7",
+                "url": "https://i.pinimg.com/originals/ce/a6/a3/cea6a3b3d427ad1b9145a079637351b4.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Boots8",
+                "url": "https://i.pinimg.com/originals/cc/13/7b/cc137b9d12fcc8adba36bd15fc15e81d.jpg",
+                "DEF": 1
+            },
+            {
+                "id": "Boots9",
+                "url": "https://i.pinimg.com/originals/04/bb/f9/04bbf95e36e6a01023a11a5e1e5f6689.jpg",
+                "DEF": 3
+            }
+        ],
+        "body": [
+            {
+                "id": "Body1",
+                "url": "https://i.pinimg.com/originals/9e/4e/5e/9e4e5ea24d905734569fdc5b479c04f3.jpg",
+                "DEF": 4
+            },
+            {
+                "id": "Body2",
+                "url": "https://i.pinimg.com/originals/24/ca/33/24ca33958b45b851bd43d48f3c81e450.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Body3",
+                "url": "https://i.pinimg.com/originals/bf/1b/73/bf1b737177b561dc4c354f864daaadb8.jpg",
+                "DEF": 4
+            },
+            {
+                "id": "Body4",
+                "url": "https://i.pinimg.com/originals/6b/93/e2/6b93e20ec2dbc76941c7aebc42be9bf6.jpg",
+                "DEF": 4
+            },
+            {
+                "id": "Body5",
+                "url": "https://i.pinimg.com/originals/08/f6/76/08f676af55b7493b7fa636de7371980a.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Body6",
+                "url": "https://i.pinimg.com/originals/90/6f/f7/906ff74e3bf8bc2db02c9b02ca066eba.jpg",
+                "DEF": 3
+            },
+            {
+                "id": "Body7",
+                "url": "https://i.pinimg.com/originals/84/2e/5d/842e5d3a209332526867a511b0ef941f.jpg",
+                "DEF": 2
+            },
+            {
+                "id": "Body8",
+                "url": "https://i.pinimg.com/originals/84/7e/bb/847ebbd7856943c695e9d1c827a51e7c.jpg",
+                "DEF": 4
+            },
+            {
+                "id": "Body9",
+                "url": "https://i.pinimg.com/originals/78/2b/5c/782b5c73ca3807c845481fbc1656d66e.jpg",
+                "DEF": 5
+            },
+            {
+                "id": "Body10",
+                "url": "https://i.pinimg.com/originals/c7/bd/1d/c7bd1dad8d29fc37df12e2dbda435af5.jpg",
+                "DEF": 4
+            },
+            {
+                "id": "Body11",
+                "url": "https://i.pinimg.com/originals/59/d1/56/59d15668ed4172203e078182aa3759d2.jpg",
+                "DEF": 5
+            }
+        ]
+    },
+    "weapons": {
+        "swords1h": [
+            {
+                "url": "https://i.pinimg.com/originals/0e/97/8e/0e978e3bd6cb723abb8f489e7ea6133f.jpg",
+                "STR": 5,
+                "DEF": 2
+            },
+            {
+                "url": "https://i.pinimg.com/originals/9d/ea/bb/9deabbb8b294b750b7695d5d3df96d46.jpg",
+                "STR": 6,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/40/e0/02/40e00287cb66e2521a6571e36599349b.jpg",
+                "STR": 4,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/bd/aa/f4/bdaaf44edb8beff33d30338edb7e9e18.jpg",
+                "STR": 6,
+                "DEF": 2
+            },
+            {
+                "url": "https://i.pinimg.com/originals/43/9b/26/439b26bb8496b155c5ef1b9cbc9b57ae.jpg",
+                "STR": 5,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/cb/d7/a3/cbd7a3ade11799c694bd697b21984b37.jpg",
+                "STR": 7,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/d6/4c/5b/d64c5bfadf15c001f49dd2aadbf6578b.jpg",
+                "STR": 6,
+                "DEF": 2
+            },
+            {
+                "url": "https://i.pinimg.com/originals/50/ae/af/50aeafb949d359e351e2cc0fdbf88523.jpg",
+                "STR": 4,
+                "DEF": 3
+            }
+        ],
+        "swords2h": [
+            {
+                "url": "https://i.pinimg.com/originals/25/86/4d/25864d25fd1fc856658a9ddaa6793ecd.jpg",
+                "STR": 12,
+                "DEF": 6
+            },
+            {
+                "url": "https://i.pinimg.com/originals/b7/bd/69/b7bd6979eb6e73302e4b7ed7084daf6b.jpg",
+                "STR": 11,
+                "DEF": 5
+            },
+            {
+                "url": "https://i.pinimg.com/originals/95/18/dd/9518ddc65bd0f8b1e3a0ee9b0a180267.jpg",
+                "STR": 12,
+                "DEF": 4
+            },
+            {
+                "url": "https://i.pinimg.com/originals/9f/2b/72/9f2b72fa651fa01924f1c630dfbe729e.jpg",
+                "STR": 10,
+                "DEF": 6
+            },
+            {
+                "url": "https://i.pinimg.com/originals/8a/b4/df/8ab4dfa46f074486a514f6e46cf92e3c.jpg",
+                "STR": 13,
+                "DEF": 5
+            },
+            {
+                "url": "https://i.pinimg.com/originals/8f/93/ed/8f93ede93207f3ccd30b8d788fa7038b.jpg",
+                "STR": 11,
+                "DEF": 6
+            }
+        ],
+        "shields": [
+            {
+                "url": "https://i.pinimg.com/originals/53/4e/d8/534ed863874904e26ca306c68fa51508.jpg",
+                "STR": 1,
+                "DEF": 4
+            },
+            {
+                "url": "https://i.pinimg.com/originals/6d/78/fb/6d78fbb256429ae3fc45ff65297c4471.jpg",
+                "STR": 3,
+                "DEF": 5
+            },
+            {
+                "url": "https://i.pinimg.com/originals/c4/6a/88/c46a88ff23856bd5a7d45764700b664d.jpg",
+                "STR": 2,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/38/eb/bd/38ebbdf8cd49b4a18e987793ed008514.jpg",
+                "STR": 3,
+                "DEF": 4
+            },
+            {
+                "url": "https://i.pinimg.com/originals/af/95/4c/af954ceacac201f869305128f8243ba0.jpg",
+                "STR": 3,
+                "DEF": 4
+            },
+            {
+                "url": "https://i.pinimg.com/originals/f5/fa/90/f5fa90b2606e7a8847bfa0916f114d90.jpg",
+                "STR": 1,
+                "DEF": 5
+            },
+            {
+                "url": "https://i.pinimg.com/originals/95/a5/6e/95a56e9e98aa5fe8c7d0bf241da0ed81.jpg",
+                "STR": 2,
+                "DEF": 5
+            },
+            {
+                "url": "https://i.pinimg.com/originals/f5/ac/5e/f5ac5e9ec4babbe702e7046f84ea7cba.jpg",
+                "STR": 4,
+                "DEF": 4
+            },
+            {
+                "url": "https://i.pinimg.com/originals/28/74/0c/28740cbe83416d2aa5613f7df4896421.jpg",
+                "STR": 2,
+                "DEF": 6
+            }
+        ],
+        "bows": [
+            {
+                "url": "https://i.pinimg.com/originals/05/ab/b5/05abb5a03b44c0b7b71f3e32b8108225.jpg",
+                "STR": 8,
+                "DEF": 3
+            },
+            {
+                "url": "https://i.pinimg.com/originals/4e/3c/6b/4e3c6b0830b681852ff8b17e9d126d27.jpg",
+                "STR": 7,
+                "DEF": 4
+            }
+        ],
+        "rods":[
+            {
+                "url": "https://i.pinimg.com/originals/ce/0d/0b/ce0d0ba8346bed6d839b466361443162.jpg",
+                "STR": 3,
+                "DEF": 1,
+                "MP": 17
+            },
+            {
+                "url": "https://i.pinimg.com/originals/3b/0c/05/3b0c0599b37053b11bfd6bd531f03f1e.jpg",
+                "STR": 2,
+                "DEF": 2,
+                "MP": 19
+            },
+            {
+                "url": "https://i.pinimg.com/originals/9c/05/1a/9c051aefe57d264049fe6a712a68a5b4.jpg",
+                "STR": 1,
+                "DEF": 3,
+                "MP": 18
+            }
+        ]
+    },
+    "fondos": [
+        "https://i.pinimg.com/originals/4c/25/50/4c2550a470de7e081d7bd7f6d042c12a.jpg",
+        "https://i.pinimg.com/originals/16/3d/3b/163d3b44608cc6a44f5729af101d33df.jpg",
+        "https://i.pinimg.com/originals/e7/2c/21/e72c218ed95d50e812d46b727ab28a38.jpg",
+        "https://i.pinimg.com/originals/ea/ad/0e/eaad0e3621af4e5c94fbfd28f5de09d1.jpg",
+        "https://i.pinimg.com/originals/17/d3/56/17d35603b85d62701e35c338f5497524.jpg",
+        "https://i.pinimg.com/originals/b8/b9/a7/b8b9a795732c1ba4ae8419330d36cb37.jpg",
+        "https://i.pinimg.com/originals/d7/f6/56/d7f6566cad58fd31a16b3654600376c1.jpg",
+        "https://i.pinimg.com/originals/0d/48/4c/0d484cb2968cead6fd67598015ed74a1.jpg",
+        "https://i.pinimg.com/originals/b9/3d/72/b93d72081169e86fa936f65c75fb08c9.jpg",
+        "https://i.pinimg.com/originals/14/56/ce/1456ce5b39737a118eb2f1921ab6ca76.jpg",
+        "https://i.pinimg.com/originals/2a/50/e7/2a50e79fb2f4e67c27a8aa617b6159f4.jpg",
+        "https://i.pinimg.com/originals/b3/14/7e/b3147ed16964d09cb41303243d104d90.jpg",
+        "https://i.pinimg.com/originals/1c/bb/4b/1cbb4be0ad315ce45bf779ba2d6c7c15.jpg"
+    ],
+    "coloseum":[ 
+        "https://i.pinimg.com/originals/33/bd/9c/33bd9c651961279b9dc722b1efd10e42.jpg",
+        "https://i.pinimg.com/originals/1f/73/48/1f7348c2023931fc20c0265dd5bfeaa4.jpg",
+        "https://i.pinimg.com/originals/7c/0b/98/7c0b985aadf2873c7474d37c68aeb3a3.jpg",
+        "https://i.pinimg.com/originals/73/e9/69/73e9692a5a963a91bdf0527e37c4dc38.jpg",
+        "https://i.pinimg.com/originals/40/3b/aa/403baa34b25d05add6006b823b43c19c.jpg",
+        "https://i.pinimg.com/originals/7c/3f/42/7c3f4203dc247478d6c77b41128f9473.jpg",
+        "https://i.pinimg.com/originals/35/cb/b1/35cbb14955250461b641178ea30df3f1.jpg",
+        "https://i.pinimg.com/originals/92/be/ba/92beba7fa5c4742a9a144386abc6a402.jpg",
+        "https://i.pinimg.com/originals/c1/ac/84/c1ac84996e997573527f435ec84e1246.jpg",
+        "https://i.pinimg.com/originals/f8/47/6d/f8476d4efb8b08400647392aa47b92c4.jpg"
+    ],
+    "class": {
+        "warrior": {
+            "HP": 30,
+            "MP": 5,
+            "STR": 8,
+            "DEF": 3
+        },
+        "berserker": {
+            "HP": 50,
+            "MP": 1,
+            "STR": 14,
+            "DEF": 1
+        },
+        "mage": {
+            "HP": 10,
+            "MP": 15,
+            "STR": 3,
+            "DEF": 2
+        },
+        "archer": {
+            "HP": 20,
+            "MP": 8,
+            "STR": 6,
+            "DEF": 3
+        }
+    },
+    "raza": {
+        "Human": {
+            "plains": {
+                "HP": 60,
+                "MP": 10,
+                "STR": 6,
+                "DEF": 4
+            },
+            "north": {
+                "HP": 70,
+                "MP": 15,
+                "STR": 5,
+                "DEF": 6
+            },
+            "mountain": {
+                "HP": 70,
+                "MP": 20,
+                "STR": 5,
+                "DEF": 2
+            },
+            "forest": {
+                "HP": 60,
+                "MP": 30,
+                "STR": 4,
+                "DEF": 3
+            }
+        },
+        "Elf": {
+            "grove": {
+                "HP": 50,
+                "MP": 40,
+                "STR": 5,
+                "DEF": 4
+            },
+            "dark": {
+                "HP": 40,
+                "MP": 55,
+                "STR": 6,
+                "DEF": 2
+            },
+            "niveous": {
+                "HP": 40,
+                "MP": 40,
+                "STR": 3,
+                "DEF": 2
+            },
+            "ancients": {
+                "HP": 30,
+                "MP": 60,
+                "STR": 8,
+                "DEF": 6
+            }
+        },
+        "Dwarf": {
+            "rockskin": {
+                "HP": 50,
+                "MP": 20,
+                "STR": 10,
+                "DEF": 8
+            },
+            "snowy": {
+                "HP": 60,
+                "MP": 45,
+                "STR": 7,
+                "DEF": 6
+            },
+            "sand": {
+                "HP": 50,
+                "MP": 50,
+                "STR": 5,
+                "DEF": 4
+            },
+            "insignes": {
+                "HP": 30,
+                "MP": 60,
+                "STR": 3,
+                "DEF": 3
+            }
+        },
+        "Merman": {
+            "depths": {
+                "HP": 50,
+                "MP": 80,
+                "STR": 5,
+                "DEF": 6
+            },
+            "coasts": {
+                "HP": 60,
+                "MP": 40,
+                "STR": 7,
+                "DEF": 5
+            },
+            "river": {
+                "HP": 70,
+                "MP": 30,
+                "STR": 10,
+                "DEF": 7
+            },
+            "volcanics": {
+                "HP": 40,
+                "MP": 70,
+                "STR": 6,
+                "DEF": 6
+            }
+        },
+        "Ayleid": {
+            "losts": {
+                "HP": 60,
+                "MP": 50,
+                "STR": 8,
+                "DEF": 7
+            },
+            "unknowns": {
+                "HP": 60,
+                "MP": 35,
+                "STR": 10,
+                "DEF": 8
+            },
+            "blazers": {
+                "HP": 50,
+                "MP": 80,
+                "STR": 5,
+                "DEF": 4
+            },
+            "perfidious": {
+                "HP": 70,
+                "MP": 50,
+                "STR": 7,
+                "DEF": 6
+            }
+        }
+    },
+    "magics": {
+        "health":{
+            "HP":50,
+            "MP":15
+        },
+        "demonarm":{
+            "STR":15,
+            "MP":25
+        },
+        "ironbody":{
+            "DEF":10,
+            "MP":20
+        },
+        "fireball":{
+            "HP":20,
+            "MP":20
+        },
+        "leech":{
+            "HP":50,
+            "MP":60
+        },
+        "corrosive":{
+            "DEF":5,
+            "MP":15
+        }
+    },
+    "enemigos":{
+        "Human":[
+            "https://i.pinimg.com/originals/ff/b6/2a/ffb62a563f95bc518ced7d311cb101ac.jpg",
+            "https://i.pinimg.com/originals/2a/df/3a/2adf3ac9f76c02ac9089dd814a48a3a0.jpg",
+            "https://i.pinimg.com/originals/79/40/af/7940af5129ea4267619257741e3f7c8c.jpg",
+            "https://i.pinimg.com/originals/f5/ec/aa/f5ecaa47234d281ed626b0b8f672329a.jpg"
+        ],
+        "Elf":[
+            "https://i.pinimg.com/originals/7a/42/16/7a421621726a9fbf160f2e03a98595ac.jpg",
+            "https://i.pinimg.com/originals/f2/0d/d1/f20dd10bfab4aae70bf367dc8fc4a306.jpg",
+            "https://i.pinimg.com/originals/ba/c4/60/bac460da08f023bba29d1ecc01c27e0c.jpg",
+            "https://i.pinimg.com/originals/a0/b7/76/a0b7764a03c21af95d8c1a1ed0fdecd9.jpg"
+        ],
+        "Dwarf":[
+            "https://i.pinimg.com/originals/c1/25/81/c125811b2d4e4e580a2fb9332f67f32c.jpg",
+            "https://i.pinimg.com/originals/ba/e3/39/bae339c0504991f221132ccb7f3f5f06.jpg",
+            "https://i.pinimg.com/originals/c6/7c/99/c67c99a1b2588255deb5374b9a346826.jpg",
+            "https://i.pinimg.com/originals/13/38/d3/1338d31ba27cfa998b9f101e40b9d2b3.jpg"
+        ],
+        "Merman":[
+            "https://i.pinimg.com/originals/e3/03/c9/e303c9e2146ab2fa89263b97f09bdc8b.jpg",
+            "https://i.pinimg.com/originals/44/27/73/4427737c54d701455090d03ab9b4d09b.jpg",
+            "https://i.pinimg.com/originals/cb/80/6b/cb806b28b08e669ce33d63274d5bed91.jpg",
+            "https://i.pinimg.com/originals/4b/a3/0b/4ba30b5b6d29889794cc4adf17d164c9.jpg"
+        ],
+        "Ayleid":[
+            "https://i.pinimg.com/originals/04/eb/3c/04eb3cde1f9005532980597b62d4fff8.jpg",
+            "https://i.pinimg.com/originals/32/43/8d/32438d7c54b2c8365b45182f0730e624.jpg",
+            "https://i.pinimg.com/originals/7b/8b/0f/7b8b0f11dcf3068a3192cbd4ce50df48.jpg",
+            "https://i.pinimg.com/originals/05/39/a8/0539a826e6ae1467d10b5d5e6c7269bc.jpg"
+        ]
+    }
+}

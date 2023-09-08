@@ -1,38 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#inicio {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 2rem;
+  background-size: 100% 100%;
+}
+
+.name {
+  position: absolute;
+  top: 1rem;
+}
+
+.link {
+  font-size: 2rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* #region Armadura */
+
+.equipment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100%; */
+  width: 100%;
+  padding: 2em;
+  background-color: rgba(179, 204, 155, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slotSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.centralEquipmentZone {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.upperEquipmentZone {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.lowerEquipmentZone {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.img {
+  width: 10rem;
+}
+
+.imgButton {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10%;
+}
+
+/* #endregion */
+
+/* #region Estadísticas */
+
+.paxCreation {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.statistics {
+  background-color: blanchedalmond;
+  width: 35%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.statName {
+  display: flex;
+  gap: 0.25em;
+}
+
+.statName>input {
+  width: 100%;
+}
+
+.stats p {
+  background-color: whitesmoke;
+  padding: 0.5em;
+  font-size: larger;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1.5em;
+}
+
+.statType {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description {
+  background-color: lightcyan;
+  padding: 1em;
+  border-radius: 5%;
+  outline-color: white;
+  /* color: transparent;  */
+  text-shadow: 1px 1px 3px white, -1px -1px 3px white, 1px -1px 3px white, -1px 1px 3px white;
+}
+
+/* #endregion */
+
+/* #region Combate */
+
+.fight {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  /* gap: 1rem; */
+  background-size: 83% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.logSection {
+  background-color: thistle;
+  border: 2px black double;
+  width: 40%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.logCombat {
+  height: 70%;
+  overflow: scroll;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.combatMc {
+  height: 7rem;
+  width: 7rem;
+  border: 1px black solid;
+}
+
+.hpBar {
+  height: 10px;
+  background-color: greenyellow;
+  width: 10em;
+}
+
+.enemy {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: rgba(229, 229, 229, 0.5);
+}
+
+.enemyStats {
+  width: 50%;
+  height: 28rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+  background-color: antiquewhite;
+}
+
+.enemyImg {
+  border: 2px red solid;
+  height: 70%;
+  width: 90%;
+  background-color: white;
+}
+
+.attacks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+/* #endregion */
+
+/* #region Back Button */
+
+.linkBack {
+  /* width: 10em;
+  height: 3.5em; */
+  padding: 0.25em 1em;
+  position: relative;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkBack::after {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: thistle;
+  transition: 0.5s;
+}
+
+.linkBack::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: thistle;
+  transition: 0.5s;
+}
+
+.linkBack:hover::before,
+.linkBack:hover::after {
+  transform: scale(0)
+}
+
+.linkBack:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+/* #endregion */
+
+/* #region Attack Button */
+
+.atkButton {
+  --glow-color: rgb(250, 131, 34);
+  --glow-spread-color: rgba(205, 105, 47, 0.781);
+  --enhanced-glow-color: rgb(252, 113, 113);
+  --btn-color: rgb(148, 48, 5);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 0.5em .25em var(--glow-color),
+    0 0 4em 0.5em var(--glow-spread-color),
+    inset 0 0 .5em .15em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.atkButton::after:not(:disabled) {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.atkButton:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+}
+
+.atkButton:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 .5em .25em var(--glow-color);
+}
+
+.atkButton:disabled {
+  background-color: grey;
+  box-shadow: 000;
+  border: 0;
+}
+
+/* #endregion */
+
+/* #region CombatButton */
+.combatLink {
+  color: brown;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.combatLink::before {
+  margin-left: auto;
+}
+
+.combatLink::after,
+.combatLink::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.combatLink:hover::after,
+.combatLink:hover::before {
+  width: 100%;
+}
+
+/* #endregion */
+
+/* #region character delete button */
+.deleteMcButton {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+  border: 3px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.deleteMcButton:hover {
+  border: 3px solid white;
+}
+
+.deleteMcButton:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+}
+/* #endregion */
+
+/* #region Start Button */
+
+.button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.8em 1.5em;
+  border: wheat solid 0.15em;
+  border-radius: 80%;
+  color: wheat;
+  font-size: 3em;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 300ms, color 300ms;
+  user-select: none;
+}
+
+.button p {
+  z-index: 1;
+}
+
+.button:hover {
+  color: #212121;
+}
+
+.button:active {
+  border-color: teal;
+}
+
+.button::after,
+.button::before {
+  content: "";
+  position: absolute;
+  width: 9em;
+  aspect-ratio: 1;
+  background: wheat;
+  opacity: 50%;
+  border-radius: 50%;
+  transition: transform 500ms, background 300ms;
+}
+
+.button::before {
+  left: 0;
+  transform: translateX(-8em);
+}
+
+.button::after {
+  right: 0;
+  transform: translateX(8em);
+}
+
+.button:hover:before {
+  transform: translateX(-1em);
+}
+
+.button:hover:after {
+  transform: translateX(1em);
+}
+
+.button:active:before,
+.button:active:after {
+  background: teal;
+}
+
+/* #endregion */

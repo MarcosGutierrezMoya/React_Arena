@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Menu from './pages/Menu.jsx';
+import PaxCreation from './pages/PaxCreation';
+import StatsContextProvider from './pages/context/statsContext';
+import Combat from './pages/Combat';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StatsContextProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Menu />} />
+            <Route path='/Creation' element={<PaxCreation />} />
+            <Route path='/Combat' element={<Combat />} />
+          </Routes>
+        </BrowserRouter>
+      </StatsContextProvider>
     </div>
   );
 }
