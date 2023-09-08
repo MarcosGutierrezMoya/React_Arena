@@ -14,9 +14,13 @@ export default function StatsContextProvider({ children }) {
         if (localStorage.getItem("save") === true) {
             setCharaSave(localStorage.getItem("save"));
         }
-        setNumEnemies(1);
-        localStorage.setItem(`numEnemies`, JSON.stringify(numEnemies));
-        console.log(numEnemies);
+        if (localStorage.getItem(`numEnemies`) !== "0") {
+            setNumEnemies(+localStorage.getItem(`numEnemies`));
+        }
+        else{
+            setNumEnemies(1);
+            localStorage.setItem(`numEnemies`, JSON.stringify(1));
+        }
     }, []);
 
     //#region Armor
@@ -171,9 +175,9 @@ export default function StatsContextProvider({ children }) {
         if (enemy.HP <= 0) {
             alert("ganaste este combate, preparate para el siguiente");
             setNumEnemies(numEnemies + 1);
-            localStorage.setItem(`numEnemies`, JSON.stringify(numEnemies));
+            localStorage.setItem(`numEnemies`, JSON.stringify(numEnemies+1));
             setTimeout(() => {
-                console.log(numEnemies,"muertos");
+                console.log(numEnemies, "muertos");
                 selectAbilities.disabled = false;
                 charaAttackButton.disabled = false;
             }, 500);
@@ -274,8 +278,12 @@ export default function StatsContextProvider({ children }) {
                     ironbody.disabled = true;
                     break;
                 case "fireball":
-                    enemy.HP -= magics[ability].HP;
+                    ;
                     info.MP -= magics[ability].MP;
+                    setEnemy(prev => ({
+                        ...prev,
+                        HP: enemy.HP - magics[ability].HP
+                    }));
                     setMagicUsed(prev => ({
                         ...prev,
                         fireball: turns
@@ -384,6 +392,7 @@ export default function StatsContextProvider({ children }) {
         if (localStorage.getItem("save") === "true") {
             setTimeout(() => {
                 setInfo(JSON.parse(localStorage.getItem("character")));
+                console.log(numEnemies);
                 setNumEnemies(+localStorage.getItem(`numEnemies`));
             }, 1000);
             setGauntletNum(+localStorage.getItem(`gauntletNum`));

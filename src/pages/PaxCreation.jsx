@@ -40,7 +40,7 @@ export default function PaxCreation() {
                 <Link to={"/Combat"} className="combatLink" onClick={() => { localStorage.setItem("save", true); localStorage.setItem(`numEnemies`, JSON.stringify(0)); setTurns(0)}}>Combate!</Link>
                 <button className="deleteMcButton" onClick={() => { localStorage.clear(); localStorage.setItem("save", "false") }}>Delete character</button>
             </form>
-            <section className="equipment" style={{ backgroundColor: "white" }}>
+            <section className="equipment" style={{ backgroundColor: "#89c0ff9d" }}>
                 <div className="upperEquipmentZone">
                     {info.class === "berserker" ? <Sword2h creation={true} /> :
                         info.class === "warrior" ? <Sword1h creation={true} /> :

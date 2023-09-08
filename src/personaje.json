@@ -395,13 +395,13 @@
         "warrior": {
             "HP": 30,
             "MP": 5,
-            "STR": 8,
+            "STR": 12,
             "DEF": 3
         },
         "berserker": {
             "HP": 50,
             "MP": 1,
-            "STR": 14,
+            "STR": 16,
             "DEF": 1
         },
         "mage": {
