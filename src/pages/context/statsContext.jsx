@@ -216,7 +216,7 @@ export default function StatsContextProvider({ children }) {
                 select.getElementsByClassName("demonarm")[0].disabled = false;
                 break;
             case magicUsed.ironbody + 2 === turns:
-                if (select.getElementsByClassName("demonarm")[0].disabled) {
+                if (select.getElementsByClassName("ironbody")[0].disabled) {
                     info.DEF -= magics["ironbody"].DEF;
                 }
                 select.getElementsByClassName("ironbody")[0].disabled = false;
