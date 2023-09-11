@@ -21,10 +21,9 @@ export default function Menu() {
 
     return (
         <div id="inicio" style={{ backgroundImage: `url(${wallPaper})` }}>
-            <h1 className="link name">Creado por Marcos Gutierrez Moya</h1>
             <Link to={"/Creation"} className="button"><p>Start</p></Link>
             {/* <Link to={"/"} className="link">Portfolio</Link> */}
-            <a href="https://github.com/MarcosGutierrezMoya" target="_blank" rel="noopener noreferrer" className="link">Portfolio</a>
+            {/* <a href="https://github.com/MarcosGutierrezMoya" target="_blank" rel="noopener noreferrer" className="link">Portfolio</a> */}
         </div>
     )
 }
